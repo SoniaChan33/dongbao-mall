@@ -1,0 +1,3 @@
+# Project exclude paths
+/msb-dongbao-generator/target/
+/msb-dongbao-services/msb-dongbao-ums/target/
