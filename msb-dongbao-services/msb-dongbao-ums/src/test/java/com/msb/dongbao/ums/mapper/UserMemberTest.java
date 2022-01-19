@@ -1,6 +1,7 @@
 package com.msb.dongbao.ums.mapper;
 
 import com.msb.dongbao.ums.MsbDongbaoUmsApplication;
+
 import com.msb.dongbao.ums.entity.UmsMember;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +24,15 @@ public class UserMemberTest {
 
         umsMemberMapper.insert(t);
 
+    }
+
+    @Test
+    void testUpdate() {
+        UmsMember t = new UmsMember();
+        t.setId(17L);
+        t.setNickName("calina");
 
     }
+
+
 }

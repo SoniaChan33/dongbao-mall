@@ -1,7 +1,7 @@
 package com.msb.dongbao.ums.service;
 
-import com.msb.dongbao.ums.entity.UmsMember;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.msb.dongbao.ums.entity.UmsMember;
 
 /**
  * <p>
@@ -11,6 +11,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author 陈慧珊
  * @since 2022-01-18
  */
-public interface UmsMemberService extends IService<UmsMember> {
 
+public interface UmsMemberService extends IService<UmsMember> {
+    public String register();
 }

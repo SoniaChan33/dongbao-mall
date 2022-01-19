@@ -1,14 +1,13 @@
-package com.msb.dongbao.ums;
-
+package com.msb.dongbao.portal.web;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.msb"})
 @MapperScan("com.msb.dongbao.ums.mapper")
-public class MsbDongbaoUmsApplication {
+public class MsbDongbaoPortalWebApplication {
     public static void main(String[] args) {
-        SpringApplication.run(MsbDongbaoUmsApplication.class, args);
+        SpringApplication.run(MsbDongbaoPortalWebApplication.class, args);
     }
 }

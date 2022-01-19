@@ -1,14 +1,14 @@
 package com.msb.dongbao.ums.entity;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import java.util.Date;
-import com.baomidou.mybatisplus.annotation.Version;
-import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.FieldFill;
+import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
-import java.io.Serializable;
+import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+
+import java.io.Serializable;
+import java.util.Date;
 
 /**
  * <p>
@@ -46,7 +46,7 @@ public class UmsMember implements Serializable {
      */
     private String nickName;
 
-    /**
+    /**0
      * 备注信息
      */
     private String note;
@@ -55,12 +55,13 @@ public class UmsMember implements Serializable {
      * 创建时间
      */
       @TableField(fill = FieldFill.INSERT)
-    private Date createTime;
+    private Date gmtCreate;
 
     /**
-     * 最后登录时间
+     * 修改时间
      */
-    private Date loginTime;
+    @TableField(fill = FieldFill.INSERT_UPDATE)
+    private Date gmtModified;
 
     /**
      * 帐号启用状态：0->禁用；1->启用
