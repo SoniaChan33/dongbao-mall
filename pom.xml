@@ -19,6 +19,10 @@
     <modules>
         <module>msb-dongbao-generator</module>
         <module>msb-dongbao-services</module>
+        <module>msb-dongbao-api</module>
+        <module>msb-dongbao-common</module>
+        <module>msb-dongbao-application</module>
+        <module>msb-dongbao-job</module>
     </modules>
 
     <properties>

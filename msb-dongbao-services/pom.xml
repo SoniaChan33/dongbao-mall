@@ -13,6 +13,13 @@
     <packaging>pom</packaging>
     <modules>
         <module>msb-dongbao-ums</module>
+        <module>msb-dongbao-pms</module>
+        <module>msb-dongbao-oms</module>
+        <module>msb-dongbao-pay</module>
+        <module>msb-dongbao-cart</module>
+        <module>msb-dongbao-dictionary</module>
+        <module>msb-dongbao-sms</module>
+        <module>msb-dongbao-cms</module>
     </modules>
 
     <properties>

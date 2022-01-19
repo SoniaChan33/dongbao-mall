@@ -7,8 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="msb-dongbao-generator" />
+        <module name="msb-dongbao-pay-api" />
+        <module name="msb-dongbao-sms-api" />
+        <module name="msb-dongbao-dictionary-api" />
+        <module name="msb-dongbao-pay" />
+        <module name="msb-dongbao-cms" />
+        <module name="msb-dongbao-job" />
+        <module name="msb-dongbao-cart" />
         <module name="msb-dongbao-ums" />
+        <module name="msb-dongbao-generator" />
+        <module name="msb-dongbao-oms-api" />
+        <module name="msb-dongbao-common" />
+        <module name="msb-dongbao-oms" />
+        <module name="msb-dongbao-pms-api" />
+        <module name="msb-dongbao-application" />
+        <module name="msb-dongbao-dictionary" />
+        <module name="msb-dongbao-ums-api" />
+        <module name="msb-dongbao-cart-api" />
+        <module name="msb-dongbao-sms" />
+        <module name="msb-dongbao-cms-api" />
+        <module name="msb-dongbao-pms" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,8 +35,27 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="msb-dongbao-api" options="-parameters" />
+      <module name="msb-dongbao-application" options="-parameters" />
+      <module name="msb-dongbao-cart" options="-parameters" />
+      <module name="msb-dongbao-cart-api" options="-parameters" />
+      <module name="msb-dongbao-cms" options="-parameters" />
+      <module name="msb-dongbao-cms-api" options="-parameters" />
+      <module name="msb-dongbao-common" options="-parameters" />
+      <module name="msb-dongbao-dictionary" options="-parameters" />
+      <module name="msb-dongbao-dictionary-api" options="-parameters" />
       <module name="msb-dongbao-generator" options="-parameters" />
+      <module name="msb-dongbao-job" options="-parameters" />
+      <module name="msb-dongbao-oms" options="-parameters" />
+      <module name="msb-dongbao-oms-api" options="-parameters" />
+      <module name="msb-dongbao-pay" options="-parameters" />
+      <module name="msb-dongbao-pay-api" options="-parameters" />
+      <module name="msb-dongbao-pms" options="-parameters" />
+      <module name="msb-dongbao-pms-api" options="-parameters" />
+      <module name="msb-dongbao-sms" options="-parameters" />
+      <module name="msb-dongbao-sms-api" options="-parameters" />
       <module name="msb-dongbao-ums" options="-parameters" />
+      <module name="msb-dongbao-ums-api" options="-parameters" />
     </option>
   </component>
 </project>
