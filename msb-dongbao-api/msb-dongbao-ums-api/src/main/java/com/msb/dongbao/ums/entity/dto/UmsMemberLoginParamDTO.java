@@ -5,10 +5,7 @@ import lombok.ToString;
 
 @Data
 @ToString
-public class UmsMemberRegisterParamDTO {
+public class UmsMemberLoginParamDTO {
     private String username;
     private String password;
-    private String icon;
-    private String email;
-    private String nickName;
 }
